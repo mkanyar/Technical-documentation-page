@@ -3,48 +3,63 @@ html,body{
     color:#4d4e53;
     font-family:'opens Sans',Arial, sans-serif;
     background-color: #ffffff;
-    line-height: 1.5;;
+    line-height: 1.5;
+    margin-left:0;
 }
 header{
     color:black;
     font-weight:700;
     font-size: 1.8em;
 }
+
 .container{
     display: grid;
-    grid-template-columns: 1fr 5fr;
-    grid-gap:10px;
+    grid-template-columns: 1fr 4fr;
+    grid-gap:50px;
 }
 
-#title{
+#titles-link{
+ position:relative;
+ width: 100%;;
+
+}
+#navbar{
+    position:fixed;
+    width: 250px;
+    height: 200%;
+    min-width:150px;
+   
     
-    overflow-x:hidden;
-    overflow-y:scroll;
+}
+#top-links-title{
+   padding-left:20px;
+}
+#titles{
+    
+    
     scroll-behavior: smooth;
-  
-}
-#title li{
-    list-style-type:none;
-    margin: 20px 0;
-    padding-left:23px;
-}
-
-#navbar ul{
-    margin-top:70px;
-    padding-right:10px;
+    position:absolute;
+    padding-right:2px;
     padding-left: 0;
-    position:fixed;
     height:800px;
-}
- #top-links-title{
-    position:fixed;
+    margin-right:5px;
+ 
    
 }
+#titles li{
+    list-style-type:none;
+    margin: 50px 0;
+    padding-left:23px;  
+}
+
+
+
 a{
     text-decoration: none;
     color:inherit;
 
 }
+hr{width:100%;}
 
 @media only screen and (max-width:768px){
     
