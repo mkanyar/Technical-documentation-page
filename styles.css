@@ -1,4 +1,13 @@
 
+header{
+    color:black;
+    font-weight:700;
+    font-size: 1.8em;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+}
 @media only screen and (max-width:768px){
     
 }
