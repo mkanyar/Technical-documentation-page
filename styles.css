@@ -1,4 +1,10 @@
 
+html,body{
+    color:#4d4e53;
+    font-family:'opens Sans',Arial, sans-serif;
+    background-color: #ffffff;
+    line-height: 1.5;;
+}
 header{
     color:black;
     font-weight:700;
@@ -6,8 +12,44 @@ header{
 }
 .container{
     display: grid;
-    grid-template-columns: 1fr 8fr;
+    grid-template-columns: 1fr 5fr;
+    grid-gap:10px;
 }
+
+#title{
+    
+    overflow-x:hidden;
+    overflow-y:scroll;
+    scroll-behavior: smooth;
+  
+}
+#title li{
+    list-style-type:none;
+    margin: 20px 0;
+    padding-left:23px;
+}
+
+#navbar ul{
+    margin-top:70px;
+    padding-right:10px;
+    padding-left: 0;
+    position:fixed;
+    height:800px;
+}
+ #top-links-title{
+    position:fixed;
+   
+}
+a{
+    text-decoration: none;
+    color:inherit;
+
+}
+
 @media only screen and (max-width:768px){
     
 }
+
+
+
+
